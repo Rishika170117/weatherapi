@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css); 
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrap {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchTerm {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 200px;
+  }
+  
+  .searchButton {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .widget {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weatherIcon {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #f39c12;
+  }
+  
+  .weatherInfo {
+    text-align: center;
+  }
+  
+  .temperature {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    margin-top: 5px;
+  }
+  
+  .weatherCondition,
+  .place {
+    font-size: 1.1rem;
+  }
+  
+  .date {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .extra-temp {
+    margin-top: 20px;
+  }
+  
+  .temp-info-minmax {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .two-sided-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .extra-info-leftside {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  
