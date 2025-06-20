@@ -1,7 +1,8 @@
-import React,{useEffect, useState} from 'react';
+// import React,{useEffect, useState} from 'react';
 import Weathercard from "./weathercard";
 import './style.css';
-import { cleanup } from '@testing-library/react';
+import { useEffect, useState } from "react";
+
 
 const Temp = () => {
     const[searchValue,setSearchValue]=useState("pune");
